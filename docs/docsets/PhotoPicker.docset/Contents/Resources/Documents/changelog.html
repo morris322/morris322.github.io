@@ -1,0 +1,1369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CHANGELOG  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+
+    <a title="CHANGELOG  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+          PhotoPicker 2.3.11 Docs
+        </a>
+         (27% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://git.synology.inc/synology/iOS-SynoUtils">
+            <img class="header-icon" src="img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">PhotoPicker Reference</a>
+      <img class="carat" src="img/carat.png" />
+      CHANGELOG  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="PhotoPicker.html">PhotoPicker</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="PhotoPicker.html#/s:13iOS_SynoUtils15CompletionBlocka">CompletionBlock</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/PhotoPickerProtocol.html">PhotoPickerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/PhotoPickerError.html">PhotoPickerError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/PhotoPickerConfig.html">PhotoPickerConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/PhotoPickerManager.html">PhotoPickerManager</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Other%20Guides.html">Other Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="changelog.html">CHANGELOG</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            
+            <h1 id='changelog' class='heading'>Changelog</h1>
+<h2 id='unreleased' class='heading'>[Unreleased]</h2>
+<h2 id='2-3-11-2021-05-04' class='heading'>2.3.11 - 2021-05-04</h2>
+<h3 id='add' class='heading'>Add</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=721&report_id=309">Mobile general improvement #309</a>
+
+<ul>
+<li>Add PhotoPicker &amp; FileUTils subspecs</li>
+</ul></li>
+<li>Support Jenkins pipeline and Fastlane swift</li>
+</ul>
+<h2 id='2-3-10-2021-03-10' class='heading'>2.3.10 - 2021-03-10</h2>
+<h3 id='fixed' class='heading'>Fixed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=721&report_id=250">Mobile general improvement #250</a>
+
+<ul>
+<li>String updated, string translated</li>
+</ul></li>
+</ul>
+<h2 id='2-3-9-2021-03-03' class='heading'>2.3.9 - 2021-03-03</h2>
+<h3 id='added' class='heading'>Added</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=755&report_id=798">iPhone Photos #798</a>
+
+<ul>
+<li>新增 AssetError class
+
+<ul>
+<li>將 save PHAsset 所產生的 error 傳出來</li>
+</ul></li>
+<li>SYNOAsset 新增介面 saveAsynchronousPHAssetToDiskWithFilePath:completion:</li>
+<li>SYNOAsset 新增介面 savePHAssetToDiskWithFilePath:</li>
+<li>SYNOAssetUtilities 新增介面 saveHEIFFileToJPGWithPHAsset:filePath:withAssetErrorCompletion:</li>
+</ul></li>
+</ul>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=755&report_id=798">iPhone Photos #798</a>
+
+<ul>
+<li>SYNOAsset 的 deprecated 介面標上 __deprecated_msg
+
+<ul>
+<li>saveAsynchronousAssetToDiskWithFilePath:completion:</li>
+<li>saveAssetToDiskWithFilePath:</li>
+</ul></li>
+<li>SYNOAssetUtilities 的 deprecated 介面標上 __deprecated_msg
+
+<ul>
+<li>saveHEIFFileToJPGWithPHAsset:filePath:withCompletion:
+### Fixed</li>
+</ul></li>
+</ul></li>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=755&report_id=747">iPhone Photos #747</a>
+
+<ul>
+<li>SYNOAsset 的 synoAssetForURL 加上 error handling，以防傳入 nil 造成 crash</li>
+</ul></li>
+</ul>
+<h2 id='2-3-8-2021-02-01' class='heading'>2.3.8 - 2021-02-01</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=755&report_id=860">iPhone Photos #860</a>
+
+<ul>
+<li>SYNOAssetSaveOption增加介面使App可以統一設定isConvertHEIFToJPEG的預設值而不需要每次new的時候都需要個別去修改</li>
+</ul></li>
+</ul>
+<h2 id='2-3-7-2021-01-22' class='heading'>2.3.7 - 2021-01-22</h2>
+<h3 id='added' class='heading'>Added</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=755&report_id=868">iPhone Photos #868</a>
+
+<ul>
+<li>SynoAsset增加function辨別是否為LivePhoto的影片部分</li>
+</ul></li>
+</ul>
+<h2 id='2-3-6-2020-01-21' class='heading'>2.3.6 - 2020-01-21</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>Replace xcconfig by pod_target_xcconfig</li>
+<li>Update dependency of iOS-MWPhotoBrowser to 1.1.1</li>
+</ul>
+<h2 id='2-3-5-2020-01-18' class='heading'>2.3.5 - 2020-01-18</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>[iPhone DS finder] #819 - Provide utilities for copyright infos</li>
+<li>Add test cases for CopyrightUtilities</li>
+</ul>
+<h2 id='2-3-4-2020-01-15' class='heading'>2.3.4 - 2020-01-15</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>Extract a subsepec, +AirPlayer</li>
+</ul>
+<h2 id='2-3-3-2020-01-12' class='heading'>2.3.3 - 2020-01-12</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>Remove unnecessary dependency, iOS-ASIHTTPRequest-1.8, for all subspecs, except the subspect, +AssetPicker</li>
+</ul>
+<h2 id='2-3-2-2020-10-22' class='heading'>2.3.2 - 2020-10-22</h2>
+<h3 id='fixed' class='heading'>Fixed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=755&report_id=799">iPhone Photos #799</a><br>
+
+<ul>
+<li>如果圖片的原始副檔名所屬的UTI與輸出影片的UTI相同則不會特別去更改原始檔案的副檔名(ex. JPG &amp; JPEG是同一個格式), 避免Photos會有重複備份的情形發生</li>
+</ul></li>
+</ul>
+<h2 id='2-3-1-2020-09-30' class='heading'>2.3.1 - 2020-09-30</h2>
+<h3 id='fixed' class='heading'>Fixed</h3>
+
+<ul>
+<li><p>[iPhone Photos] <a href="https://bug.synology.com/report/report_show.php?project_id=755&report_id=330">#330</a> &amp; <a href="https://bug.synology.com/report/report_show.php?project_id=755&report_id=677">#677</a></p>
+
+<ul>
+<li>fix upload issue for raw file. (ex. when source image is raw file, upload raw instead of jpeg)</li>
+</ul></li>
+<li><p><a href="https://bug.synology.com/report/report_show.php?project_id=755&report_id=781">[iPhone Photos] #781</a></p>
+
+<ul>
+<li>fix my photo stream list issue when limited permission is chosen on iOS14 device.</li>
+</ul></li>
+<li><p><a href="https://bug.synology.com/report/report_show.php?project_id=755&operator=or&status=6&report_id=774">[iPhone Photos] #774</a></p>
+
+<ul>
+<li>修改(ASSET_ERROR)savePHAssetWithFilePath:(NSString*)filePath</li>
+<li>PHImageManager的requestExportSessionForVideo:options:exportPreset:resultHandler若失敗(iOS13.7以後都會失敗)，fall back回PHAssetResourceManager 的 writeDataForAssetResource:toFile:options:completionHandler。</li>
+</ul></li>
+</ul>
+<h2 id='2-3-0-2020-09-16' class='heading'>2.3.0 - 2020-09-16</h2>
+<h3 id='removed' class='heading'>Removed</h3>
+
+<ul>
+<li><p>SYNOAssetManager</p>
+
+<ul>
+<li>ALAssetsLibrary 在iOS9已depracted，故移除此class</li>
+</ul></li>
+<li><p>SYNOAssetCollection</p>
+
+<ul>
+<li>把ALAsset的相關邏輯拔掉</li>
+</ul></li>
+<li><p>SYNOAsset</p>
+
+<ul>
+<li>把ALAsset的相關邏輯拔掉</li>
+</ul></li>
+</ul>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>SYNOAsset
+
+<ul>
+<li>修改下列method的resultHandler參數，將多回傳NSDictionary *info</li>
+<li>requestThumbImageWithTargetSize: resultHandler:</li>
+<li>requestThumbImageWithTargetSize: synchronous: resultHandler:</li>
+<li>requestLargeImageWithResultBlock:</li>
+<li>requestLargeImageWithSynchronous: synchronous:</li>
+<li>requestAVAssetWithResultBlock:</li>
+<li>requestLivePhotoAssetWithResultBlock:</li>
+</ul></li>
+</ul>
+<h3 id='fixed' class='heading'>Fixed</h3>
+
+<ul>
+<li><p>[iPhone Photos] #727(<a href="https://bug.synology.com/report/report_show.php?project_id=755&report_id=727">https://bug.synology.com/report/report_show.php?project_id=755&amp;report_id=727</a>)</p>
+
+<ul>
+<li>add networkAccessAllowed=yes while request LivePhoto asset and AVAsset.</li>
+</ul></li>
+<li><p>[iPhone Photos] #735(<a href="https://bug.synology.com/report/report_show.php?project_id=755&report_id=735">https://bug.synology.com/report/report_show.php?project_id=755&amp;report_id=735</a>) </p>
+
+<ul>
+<li>add networkAccessAllowed for request local album profile.</li>
+</ul></li>
+</ul>
+<h2 id='2-2-0-2020-09-04' class='heading'>2.2.0 - 2020-09-04</h2>
+<h3 id='removed' class='heading'>Removed</h3>
+
+<ul>
+<li>SYNOLog
+
+<ul>
+<li>移出這個 class</li>
+<li>當初為了讓 QC 驗證加入的 log，應不再使用（如有請移除）</li>
+</ul></li>
+</ul>
+<h3 id='fixed' class='heading'>Fixed</h3>
+
+<ul>
+<li>#244 - [<a href="http://bug.synology.com/report/report_show.php?project_id=721&operator=or&report_id=244">Switch Account] 移除讓 QC 驗證的 Log</a></li>
+</ul>
+<h2 id='2-1-7-2020-7-17' class='heading'>2.1.7 - 2020-7-17</h2>
+<h3 id='fixed' class='heading'>Fixed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=330&operator=or&report_id=1341">iPhone DS router #1341</a>
+
+<ul>
+<li>修正 JSONKit 在 iOS 14 的裝置上遇到 Tagged Pointer 會 crash 的問題</li>
+<li>拿掉處理 Tagged Pointer 時的 fast lookup 機制</li>
+</ul></li>
+</ul>
+<h2 id='2-1-6-2020-07-16' class='heading'>2.1.6 - 2020-07-16</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>整合到 iOS-SynoUtils 1.4.11
+
+<ul>
+<li>Cherry pick</li>
+<li>1.4.3
+
+<ul>
+<li>[iPhone Photos #463] add new interface in SYNOAssetPickerNavController/在SYNOAssetPhotoBrowser 加 leftNavButtonTitle protery</li>
+</ul></li>
+<li>1.4.5
+
+<ul>
+<li>[iPhone Photos #631] fix file extension name issue for edited heic photos.</li>
+</ul></li>
+<li>1.4.7
+
+<ul>
+<li>[iPhone Photos #544] 在SYNOAssetPickerNavController 修改 setupStyle 邏輯/若 viewStyle = viewStyleDali，navigationBar.barStyle 設為 UIBarStyleBlack</li>
+<li>[iPhone Photos #462] 把&quot;SZ_GDPR_PRIVACY_URL_ADDRESS &ldquo;搬到SYNOGDPRManager.h</li>
+</ul></li>
+<li>1.4.8
+
+<ul>
+<li>[iPhone Photos #589] - fix UI console warning in pickerview.</li>
+</ul></li>
+<li>1.4.9
+
+<ul>
+<li>[iPhone Photos #681] - 使外部可以自行更改asset picker的modal style而不是套用底下預設的設定(iPad formsheet style)</li>
+<li>[iPhone Photos #682] - 增加 -(BOOL)isInCloudSharedAlbum 介面/修改 -(BOOL)useExportSessionSaveTheVideo，PHAsset 若屬於 iCloud Shared Album，return true</li>
+<li>[iPhone Photos #684] - 修改 -(void)requestThumbImageWithTargetSize:(CGSize)size synchronous:(BOOL)synchronous resultHandler ，若 synchronous =  false 的情形，option.networkAccessAllowed = YES;</li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id='2-1-5-2020-06-09' class='heading'>2.1.5 - 2020-06-09</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>更新 GDPR 頁面的 skip 按鈕樣式</li>
+</ul>
+<h3 id='fixed' class='heading'>Fixed</h3>
+
+<ul>
+<li>#180 - [<a href="http://bug.synology.com/report/report_show.php?project_id=721&operator=or&report_id=180">UI Review] iOS - GDPR 頁面 Skip 按鈕的位置</a></li>
+</ul>
+<h2 id='2-1-4-2020-06-08' class='heading'>2.1.4 - 2020-06-08</h2>
+<h3 id='added' class='heading'>Added</h3>
+
+<ul>
+<li><Mobile general improvement> #190 - 新增 default type item 以 url 方式取得 ExtensionResolvedItem</li>
+</ul>
+<h2 id='2-1-3-2020-06-04' class='heading'>2.1.3- 2020-06-04</h2>
+<h3 id='added' class='heading'>Added</h3>
+
+<ul>
+<li><Mobile general improvement> #189 - 新增 contentText 供 ExtensionResolvedItem 使用</li>
+</ul>
+<h2 id='2-1-2-2020-04-07' class='heading'>2.1.2 - 2020-04-07</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=75&report_id=1355">DS file #1355</a>
+
+<ul>
+<li>[Crash] Error handling for broken livePhoto</li>
+</ul></li>
+<li>更新多國語字串
+
+<ul>
+<li><Mobile general improvement> #159 - 俄文 str_gdpr_tos_content_firebase 用到「&quot;」導致字串未成功代換</li>
+</ul></li>
+</ul>
+<h2 id='2-1-1-2020-02-26' class='heading'>2.1.1 - 2020-02-26</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=75&report_id=1401">DS file #1401</a></li>
+</ul>
+<h2 id='2-1-0-2020-02-21' class='heading'>2.1.0 - 2020-02-21</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>整合到 iOS-SynoUtils 1.3.4
+
+<ul>
+<li>Cherry pick</li>
+<li>1.2.3
+
+<ul>
+<li>Fix thast SYNOAssetSelectionViewController doesn&rsquo;t use custom check/uncheck image.</li>
+</ul></li>
+<li>1.2.5 &amp; 1.2.6
+
+<ul>
+<li>[iPhone DS file] #1354 - Failed to save attachments to DS from Mail app on iOS 13 devices</li>
+</ul></li>
+<li>1.2.7
+
+<ul>
+<li>[iPhone Photos] #288 - Update GDPR</li>
+</ul></li>
+<li>1.2.9
+
+<ul>
+<li>[iPhone Drive] #970 - Add [SYNOGDPRManager isLatestGDPRPolicyReviewed].</li>
+</ul></li>
+<li>1.3.1
+
+<ul>
+<li>[iPhone Drive] #983 - Read/write GDPR-related values into the UserDefaults provided by apps</li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id='2-0-5-2020-02-06' class='heading'>2.0.5 - 2020-02-06</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>更新 GDPR 多國語詞句使用的一致性</li>
+</ul>
+<h2 id='2-0-4-2019-12-12' class='heading'>2.0.4 - 2019-12-12</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>修正 GDPR 的多國語字串顯示</li>
+</ul>
+<h2 id='2-0-3-2019-12-12' class='heading'>2.0.3 - 2019-12-12</h2>
+<h3 id='fixed' class='heading'>Fixed</h3>
+
+<ul>
+<li>處理 Xcode 10 會 build failed 的錯誤</li>
+</ul>
+<h2 id='2-0-2-2019-12-02' class='heading'>2.0.2 - 2019-12-02</h2>
+<h3 id='added' class='heading'>Added</h3>
+
+<ul>
+<li>新增 Wizard 顯示的新樣式
+
+<ul>
+<li>提供 [SYNOWizardControlViewController canSkip] 決定下方顯示按鈕樣式</li>
+<li>新增 optional 的 [SYNOWizardViewDelegate confirmWizards] 接收點擊 confirm 按鈕</li>
+<li>新增 optional 的 [SYNOWizardViewDelegate skipWizards] 接收點擊 confirm 按鈕</li>
+</ul></li>
+<li>GDPR 支援 Firebase 的詢問頁面
+
+<ul>
+<li>新增 [SYNOGDPRManager showGDPRFromViewController:usingFirebase:tintColor:delegate:] 顯示 firebase 樣式頁面</li>
+<li>新增 optional 的 [SYNOGDPRManagerDelegate skipGDPRWithManager:] 接收點擊 skip 按鈕的行為</li>
+</ul></li>
+<li>新增 subspec UI 和 GDPR
+
+<ul>
+<li>維持 Core 的行為，一樣維持包含 UI 和 GDPR</li>
+</ul></li>
+</ul>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>修改 Swift 使用的 class name
+
+<ul>
+<li>SYNOGDPRManagerDelegate  =&gt;  GDPRManagerDelegate</li>
+<li>SYNOGDPRManager  =&gt;  GDPRManager</li>
+<li>SYNOWizardControlViewController  =&gt;  WizardControlViewController</li>
+<li>SYNOWizardViewDelegate  =&gt;  WizardViewDelegate</li>
+<li>SYNOWizardViewManager  =&gt;  WizardViewManager</li>
+</ul></li>
+<li>修改 SYNOWizardControlViewController 下方按鈕的 view 顯示方式</li>
+<li>修改點擊開啟連結的方式
+
+<ul>
+<li>由外部 Safari 開啟改為內容使用 SFSafariViewController 開啟</li>
+</ul></li>
+<li>修改頁面顯示的 modal view 樣式</li>
+<li>之前點擊 SYNOWizardControlViewController 提供的按鈕會呼叫</li>
+</ul>
+<h3 id='fixed' class='heading'>Fixed</h3>
+
+<ul>
+<li>修正 wizard scroll view 垂直距離滑動的問題</li>
+</ul>
+<h2 id='2-0-1-2019-11-27' class='heading'>2.0.1 - 2019-11-27</h2>
+<h3 id='added' class='heading'>Added</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=75&report_id=1351">DSfile #1351</a>
+
+<ul>
+<li>Add &lsquo;AddressHandler.swift&rsquo;, &lsquo;NSString+Address.h&rsquo; and &lsquo;NSString+Address.m&rsquo;</li>
+<li>Add subspec &lsquo;Swift&rsquo;</li>
+</ul></li>
+<li>Add isValidIpV4 in NSString+Address</li>
+</ul>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>move path of NSString+Address from iOS-SynoUtils/Swift to iOS-SynoUtils</li>
+</ul>
+<h2 id='2-0-0-2019-10-17' class='heading'>2.0.0 - 2019-10-17</h2>
+<h3 id='fixed' class='heading'>Fixed</h3>
+
+<ul>
+<li>cherry-pick SynoUtils 1.1.3 tag
+
+<ul>
+<li>在SynoAsset新增interface取出Phasset方便Kailash後續的實作</li>
+</ul></li>
+<li>merge to SynoUtils 1.1.16, and update string</li>
+</ul>
+<h2 id='2-0-0-beta-3-2019-9-26' class='heading'>2.0.0.beta.3 - 2019-9-26</h2>
+<h3 id='fixed' class='heading'>Fixed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=721&report_id=60">Mobile general improvement #60</a>
+
+<ul>
+<li>GDPR string updated, string translated</li>
+</ul></li>
+</ul>
+<h2 id='2-0-0-beta-2-2019-8-27' class='heading'>2.0.0.beta.2 - 2019-8-27</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>cherry-pick 1.1.0 &amp; 1.1.1 tag</li>
+<li>移除 PasscodeLock 相關檔案 (獨立到 iOS-SynoPasscodeLock)</li>
+<li>Add property &lsquo;leftMargin&rsquo; to class &lsquo;SYNOTableViewCell&rsquo; that can adjust left margin of &lsquo;textLabel&rsquo; and &lsquo;detailTextLabel&rsquo;</li>
+</ul>
+<h2 id='2-0-0-beta-1-2019-6-10' class='heading'>2.0.0.beta.1 - 2019-6-10</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>Library 改動幅度大，改為升大版號到 2.0.0</li>
+</ul>
+<h2 id='1-1-0-beta-1-2019-4-08' class='heading'>1.1.0.beta.1 - 2019-4-08</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=721&report_id=2">Switch Account</a>
+
+<ul>
+<li>從 1.0.42 分離出來</li>
+<li>移除 AFNetwoking (由需要的 library 直接使用 Cocoapods 加入 server pod)</li>
+<li>移除 API Request 相關的檔案（獨立到 SynoWebAPI）</li>
+<li>移除 Push Notification 相關的檔案（獨立到 SynoPushNotification）</li>
+<li>移除 Action Sheet 相關的檔案（獨立到 SynoRichActionSheet）</li>
+<li>移除 Photo Upload 相關的檔案（獨立到 SynoPhotoBackup）</li>
+<li>移除 Document / OTP / RelayServices 相關的檔案（獨立到 SynoSwitchAccount）</li>
+<li>刪除已廢棄使用的檔案</li>
+</ul></li>
+</ul>
+<h2 id='1-3-4-2020-2-17' class='heading'>1.3.4 - 2020-2-17</h2>
+<h3 id='added' class='heading'>Added</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=755&report_id=424">iPhone Photos #424</a>
+
+<ul>
+<li>add interface in photo backup for iOS background task framework</li>
+</ul></li>
+</ul>
+<h2 id='1-3-3-2020-2-13' class='heading'>1.3.3 - 2020-2-13</h2>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=75&report_id=1396">DS file #1396</a>
+
+<ul>
+<li>Use copy, not assign as property attribute when declaring &quot;NSString *groupCookieStorageKey&rdquo;</li>
+</ul></li>
+</ul>
+<h2 id='1-3-2-2019-12-30' class='heading'>1.3.2 - 2019-12-30</h2>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=570&operator=or&report_id=983">iPhone Drive #984</a>
+
+<ul>
+<li>Update strings for GDPR.</li>
+</ul></li>
+</ul>
+<h2 id='1-3-1-2019-12-24' class='heading'>1.3.1 - 2019-12-24</h2>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=570&operator=or&report_id=983">iPhone Drive #983</a>
+
+<ul>
+<li>Let an app can provide a userdefaults&rsquo; name into GDPRManager</li>
+</ul></li>
+</ul>
+<h2 id='1-3-0-2019-12-17' class='heading'>1.3.0 - 2019-12-17</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>Add podspec file</li>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=75&report_id=1374">DSfile #1374</a>
+
+<ul>
+<li>podspec tuning</li>
+</ul></li>
+</ul>
+<h2 id='1-2-9-2019-12-17' class='heading'>1.2.9 - 2019-12-17</h2>
+
+<ul>
+<li>[iPhone Drive] #970 - 新增 [SYNOGDPRManager isLatestGDPRPolicyReviewed]，</li>
+</ul>
+<h2 id='1-2-8-2019-12-12' class='heading'>1.2.8 - 2019-12-12</h2>
+
+<ul>
+<li>修正 GDPR 的多國語字串顯示</li>
+</ul>
+<h2 id='1-2-7-2019-12-11' class='heading'>1.2.7 - 2019-12-11</h2>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=755&operator=or&choice_filter=-1&report_id=288">Photos #288</a></li>
+<li>GDPR 支援 Firebase 的詢問頁面，要支援判斷條款版本
+
+<ul>
+<li>新增 [SYNOGDPRManagerConfiguration initWithConfiguration:]</li>
+<li>新增 [SYNOGDPRManager showGDPRIfLatestNotReviewedFromViewController:delegate:] 會判斷使用者是否檢視過最新版本的條款，若沒有則會顯示頁面。</li>
+</ul></li>
+</ul>
+<h2 id='1-2-6-2019-12-06' class='heading'>1.2.6 - 2019-12-06</h2>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=75&report_id=1373">DSfile #1373</a>
+
+<ul>
+<li>Add &lsquo;DocumentViewConfig.swift&rsquo; to setup &lsquo;themeColor&rsquo; and &lsquo;hideDismissButton&rsquo;</li>
+<li>Fix issue: WKWebView.navigationDelegate not set</li>
+</ul></li>
+</ul>
+<h2 id='1-2-5-2019-12-05' class='heading'>1.2.5 - 2019-12-05</h2>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=75&report_id=1354">DSfile #1354</a>
+
+<ul>
+<li>Add &lsquo;ExtensionItemHandler.swift&rsquo; and automatically be added to subspec &lsquo;Swift&rsquo;</li>
+</ul></li>
+</ul>
+<h2 id='1-2-4-2019-12-04' class='heading'>1.2.4 - 2019-12-04</h2>
+<h3 id='added' class='heading'>Added</h3>
+
+<ul>
+<li>新增 Wizard 顯示的新樣式
+
+<ul>
+<li>提供 [SYNOWizardControlViewController canSkip] 決定下方顯示按鈕樣式</li>
+<li>新增 optional 的 [SYNOWizardViewDelegate confirmWizards] 接收點擊 confirm 按鈕</li>
+<li>新增 optional 的 [SYNOWizardViewDelegate skipWizards] 接收點擊 confirm 按鈕</li>
+</ul></li>
+<li>GDPR 支援 Firebase 的詢問頁面
+
+<ul>
+<li>新增 SYNOGDPRManagerConfiguration 設置 GDPR 的樣式</li>
+<li>新增 [SYNOGDPRManager showGDPRFromViewController:configuration:delegate:] 透過 configuration 自定義顯示樣式頁面</li>
+<li>新增 optional 的 [SYNOGDPRManagerDelegate skipGDPRWithManager:] 接收點擊 skip 按鈕的行為</li>
+</ul></li>
+<li>新增 subspec UI 和 GDPR
+
+<ul>
+<li>維持 Core 的行為，一樣維持包含 UI 和 GDPR</li>
+</ul></li>
+</ul>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>修改 Swift 使用的 class name
+
+<ul>
+<li>SYNOGDPRManagerDelegate  =&gt;  GDPRManagerDelegate</li>
+<li>SYNOGDPRManager  =&gt;  GDPRManager</li>
+<li>SYNOWizardControlViewController  =&gt;  WizardControlViewController</li>
+<li>SYNOWizardViewDelegate  =&gt;  WizardViewDelegate</li>
+<li>SYNOWizardViewManager  =&gt;  WizardViewManager</li>
+</ul></li>
+<li>修改 SYNOWizardControlViewController 下方按鈕的 view 顯示方式</li>
+<li>修改點擊開啟連結的方式
+
+<ul>
+<li>由外部 Safari 開啟改為內容使用 SFSafariViewController 開啟</li>
+</ul></li>
+<li>修改頁面顯示的 modal view 樣式</li>
+<li>之前點擊 SYNOWizardControlViewController 提供的按鈕會呼叫</li>
+</ul>
+<h3 id='fixed' class='heading'>Fixed</h3>
+
+<ul>
+<li>修正 wizard scroll view 垂直距離滑動的問題</li>
+</ul>
+<h2 id='1-2-3-2019-12-04' class='heading'>1.2.3 - 2019-12-04</h2>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=60&report_id=2837">DS cam #2837</a>
+
+<ul>
+<li>Config anchor constraints for DocumentViewController</li>
+</ul></li>
+</ul>
+<h2 id='1-2-2-2019-11-29' class='heading'>1.2.2 - 2019-11-29</h2>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=60&report_id=2818">DS cam #2818</a>
+
+<ul>
+<li>Change LoginHistoryRecordsMax to 30</li>
+<li>Add new function to get limited login records</li>
+<li>Default get 10 login records</li>
+</ul></li>
+</ul>
+<h2 id='1-2-1-2019-11-27' class='heading'>1.2.1 - 2019-11-27</h2>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=755&assign_to=419&operator=or&report_id=258">Photos #258</a>
+
+<ul>
+<li>Move DocumentViewController to iOS-SynoUtils</li>
+</ul></li>
+</ul>
+<h2 id='1-2-0-2019-11-27' class='heading'>1.2.0 - 2019-11-27</h2>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=755&assign_to=419&operator=or&report_id=258">Photos #258</a>
+
+<ul>
+<li>Change UIWebView to WKWebView</li>
+<li>Remove SYNOReleaseNoteViewController</li>
+<li>Move SYNOFAQViewController to Docuemnt/</li>
+<li>Add the subspec, iOS-SynoUtils/Doc+FAQ, for FAQ page</li>
+</ul></li>
+</ul>
+<h2 id='1-1-20-2019-11-14' class='heading'>1.1.20 - 2019-11-14</h2>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=755&assign_to=419&operator=or&report_id=203">Photos #203</a>
+
+<ul>
+<li>Make GDPR wizard presented in full screen on iPhone.</li>
+</ul></li>
+</ul>
+<h2 id='1-1-19-2019-11-4' class='heading'>1.1.19 - 2019-11-4</h2>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=622&report_id=696">DSfinder #696</a>
+
+<ul>
+<li>OTP code alert can&rsquo;t be presented after passcode lock set up</li>
+</ul></li>
+</ul>
+<h2 id='1-1-18-2019-10-30' class='heading'>1.1.18 - 2019-10-30</h2>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=75&report_id=1351">DSfile #1351</a>
+
+<ul>
+<li>Add &lsquo;AddressHandler.swift&rsquo;, &lsquo;NSString+Address.h&rsquo; and &lsquo;NSString+Address.m&rsquo;</li>
+<li>Add subspec &lsquo;Swift&rsquo;</li>
+<li>Add interface &lsquo;updateSwitchHttps:&rsquo; in SYNOLoginViewController</li>
+<li>Update pod dependency libsynopunch to 1.0.2</li>
+</ul></li>
+</ul>
+<h2 id='1-1-17-2019-10-25' class='heading'>1.1.17 - 2019-10-25</h2>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=721&report_id=77">Mobile general improvement #77</a>
+
+<ul>
+<li>Update string: &ldquo;str_share_analytics_desc&rdquo;, &ldquo;str_gdpr_tos_content&rdquo;, &ldquo;share_analytics_disable_warn&rdquo;</li>
+</ul></li>
+</ul>
+<h2 id='1-1-16-2019-9-20' class='heading'>1.1.16 - 2019-9-20</h2>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=721&report_id=60">Mobile general improvement #60</a>
+
+<ul>
+<li>GDPR string updated, string translated</li>
+</ul></li>
+</ul>
+<h2 id='1-1-15-2019-9-19' class='heading'>1.1.15 - 2019-9-19</h2>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=622&report_id=676">DSfinder #676</a>
+
+<ul>
+<li>Update string for GDPR tos</li>
+</ul></li>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=622&report_id=671">DSfinder #671</a>
+
+<ul>
+<li>Update string for UDC switch</li>
+</ul></li>
+</ul>
+<h2 id='1-1-14-2019-8-21' class='heading'>1.1.14 - 2019-8-21</h2>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=60&operator=or&search_param=admin&search_type=1&assign_to=1026&report_id=2248">DScam #2248</a>
+
+<ul>
+<li>Remove test message in SYNOPushNotificationManager.m</li>
+</ul></li>
+</ul>
+<h2 id='1-1-13-2019-8-19' class='heading'>1.1.13 - 2019-8-19</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=75&report_id=1341">file #1341</a>
+
+<ul>
+<li>Prevent display of duplicated instance of SYNOActionMenuController</li>
+</ul></li>
+</ul>
+<h2 id='1-1-12-2019-8-19' class='heading'>1.1.12 - 2019-8-19</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=60&operator=or&search_param=admin&search_type=1&assign_to=1026&report_id=2248">DScam #2248</a>
+
+<ul>
+<li>Add surveillance personal event category</li>
+<li>Add delegate for unpair and reset push notification</li>
+<li>Support change event category</li>
+</ul></li>
+</ul>
+<h2 id='1-1-11-2019-8-5' class='heading'>1.1.11 - 2019-8-5</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=75&report_id=1334">file #1334</a>
+
+<ul>
+<li>Update strings</li>
+</ul></li>
+</ul>
+<h2 id='1-1-10-2019-7-24' class='heading'>1.1.10 - 2019-7-24</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=622&report_id=657">finder #657</a>
+
+<ul>
+<li>Update strings</li>
+</ul></li>
+</ul>
+<h2 id='1-1-9-2019-7-18' class='heading'>1.1.9 - 2019-7-18</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=330&report_id=1261">router #1261</a>
+
+<ul>
+<li>SYNORichActionSheetTextButtonConfig</li>
+<li>新增 SYNO_RAS_TXT_BTN_ACCESSORY_CUSTOM 及 accessoryImage 讓 SYNORichActionSheet 的 TextButton 可以自訂 accessory 的圖片</li>
+</ul></li>
+<li>Change to use scripts to fetch languages.</li>
+<li>Update strings</li>
+</ul>
+<h2 id='1-1-8-2019-7-2' class='heading'>1.1.8 - 2019-7-2</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=75&report_id=1248">file #1248</a>
+
+<ul>
+<li>Update strings</li>
+</ul></li>
+</ul>
+<h2 id='1-1-7-2019-6-28' class='heading'>1.1.7 - 2019-6-28</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=75&operator=or&report_id=1300">file #1300</a>
+
+<ul>
+<li>Open FAQ url with https</li>
+</ul></li>
+</ul>
+<h2 id='1-1-6-2019-6-27' class='heading'>1.1.6 - 2019-6-27</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>將 SYNORelayService.mm 中的 Reachability 換成 AFNetworkReachabilityManager
+
+<ul>
+<li>in SYNORelayService.mm so that we won&rsquo;t encounter the case Reachability.stopNotifier called in background.</li>
+<li>Reachability 是屬於 ASIHTTPRequest ，但 ASIHTTPRequest 很久沒維護了，而且內部已改用 AFNetworking</li>
+</ul></li>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=570&operator=or&report_id=833">drive #833</a>
+
+<ul>
+<li>在背景呼叫 Reachability.stopNotifier() 會失敗並會在網路改變時導致當機 (EXC_BAD_ACCESS KERN_INVALID_ADDRESS)</li>
+</ul></li>
+</ul>
+<h2 id='1-1-5-2019-6-26' class='heading'>1.1.5 - 2019-6-26</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=75&report_id=1248">file #1248</a>
+
+<ul>
+<li>Set handleError of SYNORelayService in SYNORelayService.mm when quickconnect id is incorrect or nas can&rsquo;t be found.</li>
+</ul></li>
+</ul>
+<h2 id='1-1-4-2019-6-14' class='heading'>1.1.4 - 2019-6-14</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=60&report_id=2372">cam #2372</a>
+
+<ul>
+<li>SYNOFAQViewController.h</li>
+<li>新增介面: setViewBackgroundColor:backgroundColor: 可自訂 FAQView 與 webView 的背景顏色</li>
+<li>SYNOFAQViewController.m</li>
+<li>新增介面: setViewBackgroundColor:backgroundColor: 可自訂 FAQView 與 webView 的背景顏色</li>
+<li>更改 webView 為 FAQView 的 subview 而不是其本身，並考慮 SafeArea 的 Case 重設錨點，避免在 IPhoneX 系列手機 webView 的位置錯誤．</li>
+</ul></li>
+</ul>
+<h2 id='1-1-3-2019-5-20' class='heading'>1.1.3 - 2019-5-20</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=565&operator=or&report_id=1142">Moments #1142</a><br>
+
+<ul>
+<li>修正當手機上沒有任何照片時會產生的備份問題</li>
+</ul></li>
+<li>在SynoAsset新增interface取出Phasset方便Kailash後續的實作</li>
+</ul>
+<h2 id='1-1-2-2019-5-16' class='heading'>1.1.2 - 2019-5-16</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>Merge 1.0.0-branch to master
+
+<ul>
+<li>If the target project had no swift file included before, please add an empty swift file in project and add it to every target in project.</li>
+<li>If the target project had implemnted &ldquo;Passcode Lock&rdquo; function, please add &ldquo;pod SynoPasscodeLock&rdquo; in Podfile</li>
+</ul></li>
+</ul>
+<h2 id='1-1-1-2019-4-24' class='heading'>1.1.1 - 2019-4-24</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=622&operator=or&report_id=630">explore #630</a>
+
+<ul>
+<li>Add property &lsquo;leftMargin&rsquo; to class &lsquo;SYNOTableViewCell&rsquo; that can adjust left margin of &lsquo;textLabel&rsquo; and &lsquo;detailTextLabel&rsquo;</li>
+</ul></li>
+</ul>
+<h2 id='1-1-0-2019-4-18' class='heading'>1.1.0 - 2019-4-18</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>Set branch (1.1.0-branch) from 1.0.42</li>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=622&report_id=484">finder #484</a>
+
+<ul>
+<li>Build iOS-SynoPasscodeLock as a separate library from iOS-SynoUtils</li>
+<li>Modify UX design for passcodeLock setting view.</li>
+<li>Show toast after successfully set/change passcode. (Add SYNOToast.siwft)</li>
+<li>Adjust PasscodeLockPresenter interface</li>
+<li>Add interface: presentPasscodeLockWithCompletion:, presentPasscodeLockInExtensionVC:completion</li>
+<li>Deprecated interface: presentPasscodeLockWithCompletionCallback:, presentPasscodeLockInExtensionVC:completionCallback</li>
+<li>Need to add dependency of iOS-SynoPasscodeLock library to support Passcode lock.</li>
+</ul></li>
+</ul>
+<h2 id='1-0-45-2019-5-10' class='heading'>1.0.45 - 2019-5-10</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>Make SYNOBackgroundUploadManager support upload multiple files in a request (for Kailash usage)</li>
+</ul>
+<h2 id='1-0-44-2019-5-3' class='heading'>1.0.44 - 2019-5-3</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=60&report_id=2248">cam #2248</a></li>
+<li>SYNOPushNotificationManager.h
+
+<ul>
+<li>新增介面: pairDSWithDelegate:delegate: 可再配對完成後取得 target ID</li>
+</ul></li>
+<li>SYNOPushNotificationManager.m
+
+<ul>
+<li>更改原本的 pairDSWithSerialNumber 改為呼叫 pairDSWithDelegate 並設定 delegate 為 nil</li>
+<li>更改 handlePairingResponse ，判斷若 delegate 存在就將 target id 傳給 delegate</li>
+</ul></li>
+</ul>
+<h2 id='1-0-43-2019-4-24' class='heading'>1.0.43 - 2019-4-24</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=330&report_id=1191">router #1191</a>
+
+<ul>
+<li>SYNOPushNotificationManager.h</li>
+<li>新增介面: pullNotificationsWithKeepBadge:delegate: 可指定獲取通知列表時是否要重置 badge 數量，原本的 pullNotificationsWithDelegate: 維持行為不變會重置 badge 數量</li>
+</ul></li>
+</ul>
+<h2 id='1-0-42-2019-3-28' class='heading'>1.0.42 - 2019-3-28</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=338&report_id=1031">mailplus #1031</a>
+
+<ul>
+<li>SYNONotificationDSInfo.h
+
+<ul>
+<li>新增介面: didFinishPairedFailedWithDSInfo: 和 didFinishPairedSuccessWithDSInfo:isResetPairStatus: 用以取代 didFinishPairedWithDSInfo:</li>
+<li>SYNOPersonalPushNotificationManager.m 內使用到 didFinishPairedWithDSInfo: 的地方改為優先使用新介面</li>
+</ul></li>
+<li>SYNOPersonalPushNotificationManager.m
+
+<ul>
+<li>在- (BOOL)pairDSWithDsInfo 內更改行為: 原先檢查 paired 則不做事, 改為 paired 則儲存相關資訊並從 server 上確認真實pair狀態</li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id='1-0-41-2019-3-25' class='heading'>1.0.41 - 2019-3-25</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=75&report_id=1255">file #1255</a>
+
+<ul>
+<li>Modify strings for title of face id =&gt; Don&rsquo;t translate &ldquo;FaceID&rdquo;, use original english terms.</li>
+</ul></li>
+</ul>
+<h2 id='1-0-40-2019-3-8' class='heading'>1.0.40 - 2019-3-8</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=75&report_id=1227">file #1227</a><br>
+
+<ul>
+<li>修改 direct address 的 TLD 的判斷方式</li>
+</ul></li>
+</ul>
+<h2 id='1-0-39-2019-3-6' class='heading'>1.0.39 - 2019-3-6</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><p><a href="https://bug.synology.com/report/report_show.php?project_id=75&report_id=1241">file #1241</a></p>
+
+<ul>
+<li>Fix biometric description in PasscodeLock setting view</li>
+</ul></li>
+<li><p><a href="https://bug.synology.com/report/report_show.php?project_id=75&report_id=1247">file #1247</a></p>
+
+<ul>
+<li>Fix for file#1233</li>
+<li>In SYNOTransferManager, if http response status code is larger 400 in URLSession:didCompleteWithError: or URLSession:didFinishDownloadingToURL:, treat this request as failed and clear temp files.</li>
+</ul></li>
+</ul>
+<h2 id='1-0-38-2019-2-26' class='heading'>1.0.38 - 2019-2-26</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=622&report_id=595">finder #595</a><br>
+
+<ul>
+<li>添加 HolePunching 的 log（為了方便 QC 驗證）</li>
+<li>添加 SYNOLog class</li>
+<li>修正開啟關閉列印 QCLog 的方式</li>
+</ul></li>
+</ul>
+<h2 id='1-0-37-2019-2-25' class='heading'>1.0.37 - 2019-2-25</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=75&label_name=&operator=or&choice_filter=-1&status=6&report_id=1233">file #1233</a>
+
+<ul>
+<li>In SYNOTransferManager, if http response status code is not 200 in URLSession:didCompleteWithError: or URLSession:didFinishDownloadingToURL:, treat this request as failed and clear temp files.</li>
+</ul></li>
+</ul>
+<h2 id='1-0-36-2019-2-23' class='heading'>1.0.36 - 2019-2-23</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=75&operator=or&choice_filter=-1&status=6&report_id=1232">file #1232</a>
+
+<ul>
+<li>增加 NSDate+Addition 介面，提供本地時間格式轉換</li>
+</ul></li>
+</ul>
+<h2 id='1-0-35-2019-2-20' class='heading'>1.0.35 - 2019-2-20</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=622&report_id=595">finder #595</a><br>
+
+<ul>
+<li>添加 request QuickConnect 的 log（為了方便 QC 驗證）</li>
+<li>修改 HolePunching 使用的 globalServerUrl</li>
+</ul></li>
+</ul>
+<h2 id='1-0-34-2019-2-19' class='heading'>1.0.34 - 2019-2-19</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=622&report_id=595">finder #595</a>  - 修改中國使用 QuickConnect 的域名
+
+<ul>
+<li>根據移動裝置與 DS 位置，判斷使用 QuickConnect 應使用<code>.to</code>還是<code>.cn</code></li>
+</ul></li>
+</ul>
+<h2 id='1-0-33-2019-2-15' class='heading'>1.0.33 - 2019-2-15</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><p>Fix bugs related to PasscodeLock:</p>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=75&operator=or&choice_filter=2647&sort_by=fixed_in_version&sort_method=DESC&report_id=1215">iPhone DS file #1215</a> - Fix title of biometric switch on passcode lock setting view. Display &lsquo;Touch ID&rsquo; or &lsquo;Face ID&rsquo; according to device.</li>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=75&operator=or&choice_filter=2647&sort_by=fixed_in_version&sort_method=DESC&report_id=1205">iPhone DS file #1205</a> - Add interface &lsquo;embeddedCompletionBlock&rsquo; on PasscodeLockPresenter class</li>
+</ul></li>
+<li><p>Add podspec file in project</p>
+
+<ul>
+<li>Fix wrong reference path of bt_dropdown png</li>
+</ul></li>
+</ul>
+<h2 id='1-0-32-2019-2-15' class='heading'>1.0.32 - 2019-2-15</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>update iOS-MWPhotoBrowser version to 1.0.4
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=565&label_name%5B%5D=iOS+Moments+1.3.1&operator=or&report_id=1124">Moments #1124</a></li>
+</ul></li>
+</ul>
+<h2 id='1-0-31-2019-2-15' class='heading'>1.0.31 - 2019-2-15</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>update iOS-MWPhotoBrowser version to 1.0.3
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=69&operator=or&report_id=1876">Photo #1876</a></li>
+</ul></li>
+</ul>
+<h2 id='1-0-30-2019-1-31' class='heading'>1.0.30 - 2019-1-31</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li>Fix crash issues for Photo Backup (from App store crash report)
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=69&report_id=1861">Photo #1861</a></li>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=69&report_id=1865">Photo #1865</a></li>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=69&report_id=1867">Photo #1867</a></li>
+</ul></li>
+</ul>
+<h2 id='1-0-29-2019-1-31' class='heading'>1.0.29 - 2019-1-31</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=69&report_id=1873">Photo #1873</a> - fix crash issue in Momoents album page (from App store crash report)</li>
+</ul>
+<h2 id='1-0-28-2019-1-22' class='heading'>1.0.28 - 2019-1-22</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=69&operator=or&report_id=1868">Photo #1868</a> - 解決1.0.26 Photo Backup merge回master後發生的相容性問題
+
+<ul>
+<li>主要是<a href="https://bug.synology.com/report/report_show.php?project_id=565&report_id=902">Moments#902</a>中<86bb920> commit會造成沒有實作@selector(isNeedToBeSkip)的project所有未備份的項目通通被skip掉</li>
+<li>這裡主要更正SYNOPhotoLibraryHandler中邏輯使無論有無實作@selector(isNeedToBeSkip)的project皆不受影響, Moments如果要升到此版可能要重新確認一下bug#902</li>
+</ul></li>
+</ul>
+<h2 id='1-0-27-2019-1-21' class='heading'>1.0.27 - 2019-1-21</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><p><a href="https://bug.synology.com/report/report_show.php?project_id=570&operator=or&report_id=727">Drive #727</a></p>
+
+<ul>
+<li>在 Relay server 中傳回的 DDNS 和 FQDN 的欄位有可能是空的，也可能是 &ldquo;NULL&rdquo; 這個字串。如果是 &ldquo;NULL&rdquo; ，就不嘗試連線。</li>
+</ul></li>
+<li><p><a href="https://bug.synology.com/report/report_show.php?project_id=570&operator=or&report_id=679">Drive #679</a></p>
+
+<ul>
+<li>在 SYNORelayService 的 testPunchConnectionFromPort, requestTunnelConnection 和 testTunnelConnection ， request 如果是 nil ，再加到 NSArray 中 crash 。</li>
+</ul></li>
+</ul>
+<h2 id='1-0-26-2019-1-15' class='heading'>1.0.26 - 2019-1-15</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=69&operator=or&report_id=1808">Photo #1808</a> - merge branch &lsquo;DSphoto-4.13.4&rsquo; to master
+
+<ul>
+<li>該branch主要修正PhotoBackup相關bug以及refactor, 如果沒有用到PhotoBackup的project並不會受影響</li>
+<li>以下列舉使用到PhotoBackup的project需要注意的更動:
+
+<ol>
+<li>把 SYNOPhotoLibraryHandler 的初始函式，拿掉 isSkipAll 參數。並在 SYNOPhotoBackupAssetHandlerProtocol 中增加 isSkipAll 與 setSkipAll: 介面
+
+<ul>
+<li>原因
+
+<ul>
+<li>讓 skipAll 可以被各 project 儲存在 UserDefaultSetting 中，app 重啟後仍可以讀到設定，避免初次掃描相片未完時，被重啟後，失去了 skipAll 設定，變成全部上傳。</li>
+</ul></li>
+<li>注意事項
+
+<ul>
+<li>各 project 要實作 isSkipAll 與 setSkipAll: 介面</li>
+<li>如果有使用到SYNOPhotoLibraryHandler 的初始函式需要對應修改解決compile error</li>
+</ul></li>
+</ul></li>
+<li>以 BGUploadErrorServiceDisabled 取代 <del>BGUploadErrorAPINotExist</del>
+
+<ul>
+<li>原因
+
+<ul>
+<li>原本  APINotExist 是在 Moments 上的 error code，但 Photo 並沒有，因此以較中性的 ServiceDisabled 取代。</li>
+</ul></li>
+<li>注意事項
+
+<ul>
+<li>有使用到BGUploadErrorAPINotExist的地方以BGUploadErrorServiceDisabled取代</li>
+</ul></li>
+</ul></li>
+<li>增加 BGUPloadErrorSessionTimeout, BGUploadErrorAssetSize 等 error code
+
+<ul>
+<li>新增加的Error code對project沒有影響，可視需要使用</li>
+</ul></li>
+</ol></li>
+</ul></li>
+</ul>
+<h2 id='1-0-25-2019-1-14' class='heading'>1.0.25 - 2019-1-14</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=75&report_id=1200">File #1200</a> - In SYNORelayService.mm, adding nil protection when initiating a NSDictionary object.</li>
+</ul>
+<h2 id='1-0-24-2019-1-15' class='heading'>1.0.24 - 2019-1-15</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=69&operator=or&report_id=1859">Photo #1859</a> - make online faq in thailand system direct to english verison</li>
+</ul>
+<h2 id='1-0-23-2018-12-10' class='heading'>1.0.23 - 2018-12-10</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=146&operator=or&report_id=1410">Video #1410</a> - apply safe aread in iPad Login page for new iPad pro</li>
+</ul>
+<h2 id='1-0-22-2018-11-17' class='heading'>1.0.22 - 2018-11-17</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=565&operator=or&report_id=1070">Moments #1070</a> 
+
+<ul>
+<li>SYNOPhotoBackupTaskManager.h開介面:</li>
+<li>(void)doneLoadTasks:(NSArray*)newTasks;</li>
+</ul></li>
+</ul>
+<h2 id='1-0-21-2018-11-14' class='heading'>1.0.21 - 2018-11-14</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=570&report_id=619">Drive #619</a> 
+
+<ul>
+<li>Adding @autoreleasepool block in loop to release memory allocation immediately after leaving loop.</li>
+<li>For minimizing memory usage on file provider extension.</li>
+</ul></li>
+</ul>
+<h2 id='1-0-20-2018-10-31' class='heading'>1.0.20 - 2018-10-31</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=570&report_id=571">Drive #571</a> - Add property &ldquo;NSUInteger writeMultipartChunkSize&rdquo; for SYNOBackgroundUploadManager.h, support customized copy file chunk size when uploading files.</li>
+</ul>
+<h2 id='1-0-19-amp-1-0-18-2018-11-17' class='heading'>1.0.19 &amp; 1.0.18 - 2018-11-17</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=565&operator=or&report_id=1070">Moments #1008</a>
+
+<ul>
+<li>SYNOAsset.m- (void)requestAVAssetWithResultBlock</li>
+<li>拔掉 setVesion （會導致iOS 9以下的device crash）</li>
+</ul></li>
+</ul>
+<h2 id='1-0-17-2018-10-17' class='heading'>1.0.17 - 2018-10-17</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=565&operator=or&report_id=902">Moments #902</a>
+
+<ul>
+<li>SYNOBackgroundUploadRepositoryProtocol.h
+
+<ul>
+<li>新增介面 - (BOOL)isNeedToBeSkip:(SYNOAsset*)synoAsset;</li>
+</ul></li>
+<li>SYNOPhotoBackupTaskManager.m
+
+<ul>
+<li>新增function: - (void)willStartLoadTasks { //implement by subclass }</li>
+<li>在 pollingPrepareChecking function內執行 willStartLoadTasks</li>
+</ul></li>
+<li>SYNOPhotoLibraryHandler.m
+
+<ul>
+<li>在- (void)enumeratingPhotosWithCompletion 與 - (void)queryUnbackupItemCountWithCompletion</li>
+<li>加判斷function - (BOOL)isNeedToBeSkip，決定是否要把此asset放處備份清單</li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id='1-0-15-amp-1-0-14-2018-9-7' class='heading'>1.0.15 &amp; 1.0.14 - 2018-9-7</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=565&operator=or&page=1&type=2&report_id=960">Moments #960</a>
+
+<ul>
+<li>新增 (void)requestLivePhotoAssetWithResultBlock:(void (^)(PHLivePhoto *livePhoto))resultBlock API_AVAILABLE(ios(9.1))</li>
+<li>此function 用來 request LivePhoto asset</li>
+</ul></li>
+</ul>
+<h2 id='1-0-13-2018-8-7' class='heading'>1.0.13 - 2018-8-7</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ol>
+<li>新增 URLFromString:withScheme:andDefaultPort:includeQuery</li>
+<li>此方式可以將傳進去的 String 保留 query 的部分合進 URL 裡</li>
+</ol>
+<h2 id='1-0-12-2018-8-3' class='heading'>1.0.12 - 2018-8-3</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=297&report_id=823">Note #823</a> - Support Thailand language: Adding &ldquo;tha&lt;-&gt;th&rdquo; mapping in &ldquo;lnxscripts/ISOLanguage.php&rdquo;, help creating localized string files.</li>
+</ul>
+<h2 id='1-0-11-2018-7-31' class='heading'>1.0.11 - 2018-7-31</h2>
+<h3 id='changed' class='heading'>Changed</h3>
+
+<ul>
+<li><a href="https://bug.synology.com/report/report_show.php?project_id=297&report_id=823">Note #823</a> - Support Thailand language: Add &ldquo;th&lt;-&gt;tha&rdquo; mapping in SYNOLanguageMap.plist, providing mapping from resource file path.</li>
+</ul>
+
+          </div>
+        </section>
+
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2021 <a class="link" href="https://git.synology.inc/synology/iOS-SynoUtils" target="_blank" rel="external">Morris Xie</a>. All rights reserved. (Last updated: 2021-05-06)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

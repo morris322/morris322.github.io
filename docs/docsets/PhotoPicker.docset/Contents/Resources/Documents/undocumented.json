@@ -1,0 +1,96 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/morris322/Projects/iOS-SynoUtils/iOS-SynoUtils/PhotoPicker/AssetPickerHandler.swift",
+      "line": 43,
+      "symbol": "AssetPickerHandler.synoAssetPickerNavController(_:didFinishPickingMediaWithInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/morris322/Projects/iOS-SynoUtils/iOS-SynoUtils/PhotoPicker/AssetPickerHandler.swift",
+      "line": 61,
+      "symbol": "AssetPickerHandler.synoAssetPickerNavControllerDidCancel(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/morris322/Projects/iOS-SynoUtils/iOS-SynoUtils/PhotoPicker/AssetPickerHandler.swift",
+      "line": 65,
+      "symbol": "AssetPickerHandler.synoAssetPickerNavControllerFailWithError(_:error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/morris322/Projects/iOS-SynoUtils/iOS-SynoUtils/PhotoPicker/ImagePickerHandler.swift",
+      "line": 87,
+      "symbol": "ImagePickerHandler.imagePickerController(_:didFinishPickingMediaWithInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/morris322/Projects/iOS-SynoUtils/iOS-SynoUtils/PhotoPicker/PhotoPickerManager.swift",
+      "line": 42,
+      "symbol": "PhotoPickerProtocol.config",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/morris322/Projects/iOS-SynoUtils/iOS-SynoUtils/PhotoPicker/PhotoPickerManager.swift",
+      "line": 43,
+      "symbol": "PhotoPickerProtocol.show(from:completionBlock:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/morris322/Projects/iOS-SynoUtils/iOS-SynoUtils/PhotoPicker/PhotoPickerManager.swift",
+      "line": 46,
+      "symbol": "PhotoPickerError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/morris322/Projects/iOS-SynoUtils/iOS-SynoUtils/PhotoPicker/PhotoPickerManager.swift",
+      "line": 47,
+      "symbol": "PhotoPickerError.photoNotAuthorized",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/morris322/Projects/iOS-SynoUtils/iOS-SynoUtils/PhotoPicker/PhotoPickerManager.swift",
+      "line": 48,
+      "symbol": "PhotoPickerError.failCount(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/morris322/Projects/iOS-SynoUtils/iOS-SynoUtils/PhotoPicker/PhotoPickerManager.swift",
+      "line": 49,
+      "symbol": "PhotoPickerError.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/morris322/Projects/iOS-SynoUtils/iOS-SynoUtils/PhotoPicker/PhotoPickerManager.swift",
+      "line": 52,
+      "symbol": "PhotoPickerManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/morris322/Projects/iOS-SynoUtils/iOS-SynoUtils/PhotoPicker/PhotoPickerManager.swift",
+      "line": 55,
+      "symbol": "PhotoPickerManager.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/morris322/Projects/iOS-SynoUtils/iOS-SynoUtils/PhotoPicker/PhotoPickerManager.swift",
+      "line": 57,
+      "symbol": "PhotoPickerManager.showPicker(isTakingPhoto:config:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/morris322/Projects/iOS-SynoUtils"
+}

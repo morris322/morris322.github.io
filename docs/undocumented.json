@@ -1,0 +1,33 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/appbuilder/.jenkins/workspace/iOS-SynoUtils-pipeline/iOS-SynoUtils/PhotoPicker/AssetPickerHandler.swift",
+      "line": 43,
+      "symbol": "AssetPickerHandler.synoAssetPickerNavController(_:didFinishPickingMediaWithInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/appbuilder/.jenkins/workspace/iOS-SynoUtils-pipeline/iOS-SynoUtils/PhotoPicker/AssetPickerHandler.swift",
+      "line": 61,
+      "symbol": "AssetPickerHandler.synoAssetPickerNavControllerDidCancel(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/appbuilder/.jenkins/workspace/iOS-SynoUtils-pipeline/iOS-SynoUtils/PhotoPicker/AssetPickerHandler.swift",
+      "line": 65,
+      "symbol": "AssetPickerHandler.synoAssetPickerNavControllerFailWithError(_:error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/appbuilder/.jenkins/workspace/iOS-SynoUtils-pipeline/iOS-SynoUtils/PhotoPicker/ImagePickerHandler.swift",
+      "line": 87,
+      "symbol": "ImagePickerHandler.imagePickerController(_:didFinishPickingMediaWithInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/appbuilder/.jenkins/workspace/iOS-SynoUtils-pipeline"
+}
